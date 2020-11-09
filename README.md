@@ -19,7 +19,7 @@ CocoaPods installation
 ```sh
 $ cd ios && pod install
 ```
-
+For build release use xcode's tools
 
 ### Run Android
 
@@ -27,7 +27,10 @@ For the emulator support use Android Studio
 ```sh
 $ react-native run-android
 ```
-
+Build release
+```sh
+./gradlew assembleRelease
+```
 
 ### Useful links
 
@@ -38,3 +41,5 @@ $ react-native run-android
 | Redux | https://redux.js.org/ |
 | Firebase | https://firebase.google.com/ |
 | CocoaPods | https://cocoapods.org/ |
+| NPM | https://www.npmjs.com/ |
+
